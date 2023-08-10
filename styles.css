@@ -1,0 +1,82 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: 'inter', sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Estilos para el formulario */
+  #survey-form {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para los elementos del formulario */
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  select {
+    height: 35px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para los encabezados */
+  h1, h2, h3 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'playfair display';
+  }
+
+  .description {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  /* Estilos para los comentarios */
+  textarea {
+    resize: vertical;
+  }
+  
+  /* Estilos para las opciones de radio y checkboxes */
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Estilos para el formulario en dispositivos móviles */
+  @media (max-width: 600px) {
+    #survey-form {
+      width: 90%;
+    }
+  }
+  
